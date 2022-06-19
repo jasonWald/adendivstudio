@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    background-color: black;
+    color: aliceblue;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+@font-face {
+    font-family: "Pizdec";
+    src: url(./fotns/SuisseBPIntl-Regular.otf);
+}
+@font-face {
+    font-family: "adec";
+    src: url(./fotns/SS_Adec2.0_text.otf);
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+.hero video {
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    object-fit: cover;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    transform: scale(2.3);
+}
+
+.navbar {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 30px;
+    padding: 2rem;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    list-style-type: none;
+}
+
+.navbar-links a{
+    text-decoration: none;
+    color: white;
+    font-family: "adec";
+    font-size: 1.3em;
+    letter-spacing: 17px;
+}
+
+
+
+.unik-text-container {
+    position: relative;
+    padding: 1rem;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+.text-container {
+    position: absolute;
+    text-transform: uppercase;
+    text-align: end;
+ }
+.text-element1{
+    position: relative;
+    font-size: 5rem;
+    font-family: 'Pizdec';
+    font-style: normal;
+    font-weight: 200;
+    color: #d9d9d9;
+}
+
+.text-element2{
+    position: relative;
+    font-size: 5rem;
+    font-family: 'Pizdec';
+    font-style: normal;
+    font-weight: 200;
+    color: #d9d9d9;
+}
+
+.text-element3{
+    position: relative;
+    font-size: 5rem;
+    font-family: 'Pizdec';
+    font-style: normal;
+    font-weight: 200;
+    color: #d9d9d9;
+}
+
+.text-element4{
+    position: relative;
+    font-size: 5rem;
+    font-family: 'Pizdec';
+    font-style: normal;
+    font-weight: 200;
+    color: #d9d9d9;
+}
+
+.info-c {
+    margin-top: 10rem;
+    width: 100vw;
+    background-color: black;
+    padding: 0 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+.c-info-container {
+    display: flex;
+    padding: 1rem;
+    gap: 18rem;
+}
+
+.intro-c {
+    width: 60%;
+    display: flex;
+    gap: 2rem;
+    font-family: "Pizdec";
+    font-size: 1.5em;
+    align-items: flex-start;
+    
+}
+.intro-c h2{
+    letter-spacing: 10px;
+}
+
+.c-info-contacts {
+    font-size: 1.2rem;
+    font-family: "Pizdec";
+}
+
+.c-info-contacts h2 {
+    letter-spacing: 10px;
+}
+
+.c-info-links {
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.c-info-links a {
+    text-decoration: none;
+    color: #d9d9d9;
+}
+
+.c-info-projects {
+margin-top: 7rem;
+font-size: 18rem;
+font-family: 'adec';
+font-style: normal;
+font-weight: 200;
+color: #d9d9d9;
+}
+
+.projects {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.projects-container {
+    position: relative;
+    margin-top: 10rem;
+    width: 100%;
+    height: 70vh;
+}
+
+.projects-container video {
+    position: relative;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    object-fit: cover;
+}
+
+.projects-text-container {
+    position: absolute;
+    z-index: 2;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-text-h3 {
+    font-family: "adec";
+    font-size: 50px;
+}
+
+
+.portfolio {
+    margin-top: 10rem;
+    width: 100%;
+    height: 200vh;
+}
+
+.portfolio-container-1 {
+    width: 100%;
+}
+.portfolio-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-text-port {
+    position: absolute;
+    font-family: "Pizdec";
+    font-size: 7em
+}
+.renderer {
+    position: absolute;
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 15%;
+    list-style-type: none;
+    font-family: "Pizdec";
+    line-height: 1.3em;
+    font-size: 32px;
+}
+
+.jager-text-min {
+    display: flex;
+    justify-content: center;
+    font-size: 96px;
+    font-family: "Pizdec";
+    letter-spacing: 25px;
+}
+
+.jager-text {
+    display: flex;
+    justify-content: center;
+    font-size: 96px;
+    font-family: "Pizdec";
+    letter-spacing: 20px;
+}
+.travel-sec-img {
+}
+
+.travel-sec-img img {
+
+    background-size: cover;
+}
